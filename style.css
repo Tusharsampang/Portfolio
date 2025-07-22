@@ -1,0 +1,241 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 5%;
+  background-color: #111;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+ 
+}
+.logo:hover {
+  color: #06acf4;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #06acf4;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 5%;
+  background: linear-gradient(to right, #fff, #f7f7f7);
+}
+
+.home-text {
+  flex: 1 1 50%;
+  padding-right: 2rem;
+}
+
+.home-text h2, .home-text h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.home-text p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.highlightGarne {
+  color: #06acf4;
+  font-weight: bold;
+}
+
+.highlight1 {
+  color: #04eaea;
+}
+
+.web{
+  color:#06acf4;
+}
+
+.home-image {
+  flex: 1 1 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #06acf4;
+}
+
+.badge.dev {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #06acf4;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Skills Section */
+#skills {
+  padding: 4rem 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#skills p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#skills .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+#skills .grid div {
+  text-align: center;
+}
+
+#skills img {
+  width: 60%;
+  margin-bottom: 0.5%;
+}
+
+/* PORTFOLIO Section */
+#PORTFOLIO {
+  padding: 4rem 5%;
+  background: #fff;
+  text-align: center;
+}
+
+#PORTFOLIO h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#PORTFOLIO p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#PORTFOLIO .projects {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2%;
+
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 10%;
+}
+  
+.card:hover {
+  color: #06acf4;
+  transition: transform 1s ease;
+  transform: translateY(-50px);
+}
+
+/* Contact Section */
+#contact {
+  padding: 4rem 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 250%;
+  margin-bottom: 3%;
+}
+
+#contact p {
+  font-size: 150%;
+  margin-bottom: 2%;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+footer:hover{
+  color: #06acf4;
+}
+
+#green{
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+#green p{
+  position: relative;
+  padding-left: 0%;
+}
+.red{
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
